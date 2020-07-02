@@ -40,14 +40,14 @@ margin-right: 10%; }
 }
     .cover img{
       width:100%;
-      height: ;
+      height:45em ;
     }
     .form1 { grid-area: form1; 
-      margin-top: -25em;
+      margin-top: -30em;
       text-align: center;
       background-color: white;
       height: 18em;
-      width: 25em;
+      width: 28em;
       justify-self: center;
       -moz-box-shadow: 0 0 5px 5px #666;
       -webkit-box-shadow: 0 0 5px 5px #666;
@@ -122,6 +122,11 @@ margin-right: 10%; }
 
     .form1 {
       margin-top:-15em;
+    }
+
+    .cover img{
+      width:100%;
+      height:25em ;
     }
 
 
