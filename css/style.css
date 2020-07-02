@@ -1,0 +1,105 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "logo logo menu menu" 
+    "cover cover cover cover" "form1 form1 form1 form1" "title title title title" "p1 p2 p3 p4" "copyrights copyrights copyrights copyrights";
+  }
+  
+  .logo { grid-area: logo; }
+
+  .logo {
+    width:50%;
+    margin-left: 20%;
+  }
+  .logo img{
+    width:7em;
+  }
+  
+  .menu { grid-area: menu;
+  justify-self: right;
+margin-right: 10%; }
+
+  .menu li {
+    display: inline;
+    margin-left: 1em;
+  }
+  
+  .cover { grid-area: cover;
+ 
+   
+}
+
+.menu a:link{
+  color: rgb(80, 79, 79);
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+    .cover img{
+      width:100%;
+      height: ;
+    }
+    .form1 { grid-area: form1; 
+      margin-top: -25em;
+      text-align: center;
+      background-color: white;
+      height: 18em;
+      width: 25em;
+      justify-self: center;
+      -moz-box-shadow: 0 0 5px 5px #666;
+      -webkit-box-shadow: 0 0 5px 5px #666;
+      box-shadow: 0 0 5px 5px #666;
+      
+    }
+
+    button {
+      background-color: #f02d72;
+      border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 20px;
+    }
+
+    input[type=text]
+    {
+      padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  
+
+      background-color: #e6e6e6;
+    }
+    
+    h1,h2 { font-family: "Lucida Bright", Georgia, serif;
+      font-style: normal; 
+      font-variant: normal; }
+  
+  .title { grid-area: title;
+  
+  text-align: center;}
+
+  .p img {
+    width:200px;
+    height:300px;
+  }
+  .p {
+    text-align: center;
+  }
+  
+  .p1 { grid-area: p1; }
+  
+  .p2 { grid-area: p2; }
+  
+  .p3 { grid-area: p3; }
+  
+  .p4 { grid-area: p4; }
+  
+  .copyrights { grid-area: copyrights; text-align: center; }
