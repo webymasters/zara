@@ -93,7 +93,13 @@ margin-right: 10%; }
   .p {
     text-align: center;
   }
-  
+  .p h2 {
+    margin-top:-0.5em;
+    color: grey;
+  }
+  .p h3 {
+    color: rgb(105, 103, 103);
+  }
   .p1 { grid-area: p1; }
   
   .p2 { grid-area: p2; }
