@@ -109,3 +109,20 @@ margin-right: 10%; }
   .p4 { grid-area: p4; }
   
   .copyrights { grid-area: copyrights; text-align: center; }
+
+
+  @media only screen and (max-width: 800px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      gap: 1px 1px;
+      grid-template-areas: "logo  menu" 
+      "cover cover " " form1 form1" " title title" "p1 p2"  "p3 p4" " copyrights copyrights";
+    }
+
+    .form1 {
+      margin-top:-15em;
+    }
+
+
+  }
